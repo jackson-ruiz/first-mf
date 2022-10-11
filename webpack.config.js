@@ -44,7 +44,11 @@ module.exports = {
       name: "microf1",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./SamplePage": "./src/pages/SamplePage.jsx",
+        "./InputField": "./src/components/InputField.jsx",
+        "./CustomButton": "./src/components/CustomButton.jsx",
+      },
       shared: {
         ...deps,
         react: {

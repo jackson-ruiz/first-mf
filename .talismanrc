@@ -1,4 +1,6 @@
 fileignoreconfig:
   - filename: package-lock.json
-    checksum: b666bada66dbcb9691d602e35733513037137785543af425f41ddf5c4e63322d
+    checksum: 3b316c0f8afd5b22075cbeb2bdf8d9902ebb98d14c604cec80c0972e871b2d91
+  - filename: src/components/InputField.jsx
+    checksum: 3a88c815979d9bb8fa6cafe497421581512007bf5cfed84b16600e97dc481dc4
 version: ""
